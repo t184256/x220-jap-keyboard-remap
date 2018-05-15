@@ -72,21 +72,38 @@ LSHIFT      Z   X   C   V   B   N   M   ,   .   /  RO RSHIFT
 LCTRL   FN WIN ALT XX1    SPACE  XX2 XX3 RA CP RCTRL BACK
 '''
 
+#QWERTY_RU = r'''
+#     ` 1   2   3   4   5   #   6   7   8   9   0   -   # #
+#   TAB   Q   W   E   R   T   #   Y   U   I   O   P   [
+#CTRLESC   A   S   D   F   G   #   H   J   K   L   ;   '   ]
+#        Z   X   C   V   B   #   #  N   M   ,   .   /  RSHIFT
+##       =  WIN ALT BS     SPACE  ENT SPS LAN #   #  BACK
+#'''
+
 QWERTY_RU = r'''
-     ` 1   2   3   4   5   #   6   7   8   9   0   -   # #
-   TAB   Q   W   E   R   T   #   Y   U   I   O   P   [
-CTRLESC   A   S   D   F   G   #   H   J   K   L   ;   '   ]
-        Z   X   C   V   B   #   #  N   M   ,   .   /  RSHIFT
-#       =  WIN ALT BS     SPACE  ENT SPS LAN #   #  BACK
+     ` 1   2   3   4   5   #   #   6   7   8   9   0   - \
+   TAB   Q   W   E   R   T   #   #   Y   U   I   O   P
+CTRLESC   A   S   D   F   G   #   #   H   J   K   L   ;   '
+        Z   X   C   V   B   #   #  #   N   M   ,   .  /
+#       =  WIN ALT BS     SPACE  SPS ENT SPS LAN [  ]
 '''
 
+#COLEMAK = r'''
+#     ` 1   2   3   4   5   #   6   7   8   9   0   -   #  #
+#   TAB   Q   W   F   P   G   #   J   L   U   Y   ;   \
+#CTRLESC   A   R   S   T   D   #   H   N   E   I   O   '   #
+#        Z   X   C   V   B   #   #   K   M   ,   .   /  RSHIFT
+##       =  WIN ALT BS     SPACE  ENT SPS LAN #   [   ]
+#'''
+
 COLEMAK = r'''
-     ` 1   2   3   4   5   #   6   7   8   9   0   -   #  #
-   TAB   Q   W   F   P   G   #   J   L   U   Y   ;   \
-CTRLESC   A   R   S   T   D   #   H   N   E   I   O   '   #
-        Z   X   C   V   B   #   #   K   M   ,   .   /  RSHIFT
-#       =  WIN ALT BS     SPACE  ENT SPS LAN #   [   ]
+     ` 1   2   3   4   5   #   #   6   7   8   9   0   -  \
+   TAB   Q   W   F   P   G   #   #   J   L   U   Y   ;
+CTRLESC   A   R   S   T   D   #   #   H   N   E   I   O   '
+        Z   X   C   V   B   #   #   #   K   M   ,   .  /
+#       =  WIN ALT BS     SPACE  SPS ENT SPS LAN  [   ]
 '''
+
 
 MODBUTTONS = {
     'CTRLESC': 'ESC',
